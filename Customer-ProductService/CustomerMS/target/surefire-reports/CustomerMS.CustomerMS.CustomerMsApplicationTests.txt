@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: CustomerMS.CustomerMS.CustomerMsApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.660 s <<< FAILURE! -- in CustomerMS.CustomerMS.CustomerMsApplicationTests
+CustomerMS.CustomerMS.CustomerMsApplicationTests.shouldCallProductService -- Time elapsed: 0.017 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.springframework.web.client.RestTemplate.getForObject(String, java.lang.Class, Object[])" because "this.restTemplate" is null
+	at CustomerMS.CustomerMS.CustomerMsApplicationTests.shouldCallProductService(CustomerMsApplicationTests.java:69)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

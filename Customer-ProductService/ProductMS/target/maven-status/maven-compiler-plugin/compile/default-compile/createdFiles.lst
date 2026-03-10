@@ -1,0 +1,5 @@
+ProductMS\ProductMsApplication.class
+ProductMS\Repository\ProductRepo.class
+ProductMS\Service\ProductService.class
+ProductMS\Controller\productController.class
+ProductMS\Entity\Product.class
